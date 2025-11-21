@@ -38,7 +38,7 @@ public class MergeSort {
         }
     }
 
-    public void mergeSort (int[] array, int l, int r) {
+    public void mergeSort(int[] array, int l, int r) {
         if (l < r) {
             int mid = l + (r - l) / 2;
             mergeSort(array, l, mid);
@@ -47,7 +47,7 @@ public class MergeSort {
         }
     }
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int[] array = new int[]{7, 6, 5, 4, 3, 2, 1};
         MergeSort mergeSortObj = new MergeSort();
         mergeSortObj.mergeSort(array, 0, array.length - 1);

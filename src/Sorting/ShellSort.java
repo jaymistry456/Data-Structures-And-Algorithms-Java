@@ -1,7 +1,7 @@
 package Sorting;
 
 public class ShellSort {
-    public void shellSort (int[] array) {
+    public void shellSort(int[] array) {
         for (int gap = array.length/2; gap > 0; gap/=2) {
             for (int i = gap; i < array.length; i++) {
                 int temp = array[i];
@@ -15,7 +15,7 @@ public class ShellSort {
         }
     }
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int[] array = new int[]{7, 6, 5, 4, 3, 2, 1};
         ShellSort shellSortObj = new ShellSort();
         shellSortObj.shellSort(array);

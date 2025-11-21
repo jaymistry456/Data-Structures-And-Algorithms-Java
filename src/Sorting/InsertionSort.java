@@ -1,7 +1,7 @@
 package Sorting;
 
 public class InsertionSort {
-    public void insertionSort (int[] array) {
+    public void insertionSort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             int temp = array[i];
             int j = i;
@@ -13,7 +13,7 @@ public class InsertionSort {
         }
     }
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int[] array = new int[]{7, 6, 5, 4, 3, 2, 1};
         InsertionSort insertionSortObj = new InsertionSort();
         insertionSortObj.insertionSort(array);
