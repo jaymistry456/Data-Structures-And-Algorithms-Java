@@ -1,11 +1,14 @@
+package lists;
+
+import resources.Employee;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 public class Lists {
     public static void main(String[] args) {
         List<Employee> employeeList = new ArrayList<>();
-        // List<Employee> employeeList = new Vector<>(); // thread-safe ArrayList
+        // List<linkedlists.Employee> employeeList = new Vector<>(); // thread-safe ArrayList
 
 
         // adding at the end of the list

@@ -1,4 +1,4 @@
-package Sorting;
+package sorting;
 
 public class QuickSort {
     public int partition(int[] array, int l, int r) {

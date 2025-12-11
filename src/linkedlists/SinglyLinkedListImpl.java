@@ -1,3 +1,6 @@
+package linkedlists;
+
+import resources.Employee;
 
 class LinkedListNode {
     private Employee employee;

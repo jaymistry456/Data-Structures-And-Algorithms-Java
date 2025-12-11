@@ -1,6 +1,4 @@
-package Searching;
-
-import java.util.Arrays;
+package searching;
 
 public class LinearSearch {
     public int linearSearch(int[] array, int key) {

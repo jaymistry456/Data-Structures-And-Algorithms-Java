@@ -1,3 +1,5 @@
+package resources;
+
 import java.util.Objects;
 
 public class Employee {
@@ -49,7 +51,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "linkedlists.Employee{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +

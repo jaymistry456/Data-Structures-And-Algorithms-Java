@@ -1,4 +1,4 @@
-package Sorting;
+package sorting;
 
 public class CountingSort {
     public void countingSort(int[] array, int min, int max) {
