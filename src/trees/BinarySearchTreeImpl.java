@@ -152,24 +152,30 @@ class Tree {
         if(root == null) {
             return;
         }
+        System.out.println("-------InorderTraversal-------");
         root.inorderTraversal();
         System.out.println();
+        System.out.println("------------------------------");
     }
 
     public void preorderTraversal() {
         if(root == null) {
             return;
         }
+        System.out.println("-------PreorderTraversal-------");
         root.preorderTraversal();
         System.out.println();
+        System.out.println("-------------------------------");
     }
 
     public void postorderTraversal() {
         if(root == null) {
             return;
         }
+        System.out.println("-------PostorderTraversal-------");
         root.postorderTraversal();
         System.out.println();
+        System.out.println("--------------------------------");
     }
 
     public int min() {
@@ -235,6 +241,8 @@ public class BinarySearchTreeImpl {
         tree.insert(32);
         tree.insert(17);
         tree.inorderTraversal();
+        tree.preorderTraversal();
+        tree.postorderTraversal();
         System.out.println(tree.min());
         System.out.println(tree.max());
         System.out.println(tree.get(27));
