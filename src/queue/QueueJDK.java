@@ -16,7 +16,7 @@ public class QueueJDK {
     public static void main(String[] args) {
         Queue<Employee> queue = new ArrayDeque<>();
         queue.offer(new Employee(1, "Harry", "Potter"));
-        queue.offer(new Employee(2, "Ron", "Weasly"));
+        queue.offer(new Employee(2, "Ron", "Weasley"));
         queue.offer(new Employee(3, "Hermione", "Granger"));
         printQueue(queue);
         queue.offer(new Employee(4, "Neville", "Longbottom"));

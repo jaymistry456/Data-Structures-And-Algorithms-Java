@@ -20,7 +20,7 @@ public class LinkedListJDK {
     public static void main(String[] args) {
         LinkedList<Employee> linkedList = new LinkedList<>();
         linkedList.addFirst(new Employee(1, "Harry", "Potter"));
-        linkedList.addFirst(new Employee(2, "Ron", "Weasly"));
+        linkedList.addFirst(new Employee(2, "Ron", "Weasley"));
         linkedList.addFirst(new Employee(3, "Hermione", "Granger"));
         printList(linkedList);
         linkedList.addLast(new Employee(4, "Neville", "Longbottom"));

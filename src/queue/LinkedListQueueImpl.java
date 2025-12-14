@@ -43,7 +43,7 @@ public class LinkedListQueueImpl {
     public static void main(String[] args) {
         LinkedListQueue linkedListQueue = new LinkedListQueue();
         linkedListQueue.add(new Employee(1, "Harry", "Potter"));
-        linkedListQueue.add(new Employee(2, "Ron", "Weasly"));
+        linkedListQueue.add(new Employee(2, "Ron", "Weasley"));
         linkedListQueue.add(new Employee(3, "Hermione", "Granger"));
         linkedListQueue.printQueue();
         linkedListQueue.add(new Employee(4, "Neville", "Longbottom"));

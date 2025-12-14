@@ -42,7 +42,7 @@ public class LinkedListStackImpl {
     public static void main(String[] args) {
         LinkedListStack linkedListStack = new LinkedListStack();
         linkedListStack.push(new Employee(1, "Harry", "Potter"));
-        linkedListStack.push(new Employee(2, "Ron", "Weasly"));
+        linkedListStack.push(new Employee(2, "Ron", "Weasley"));
         linkedListStack.push(new Employee(3, "Hermione", "Granger"));
         linkedListStack.printStack();
         linkedListStack.push(new Employee(4, "Neville", "Longbottom"));

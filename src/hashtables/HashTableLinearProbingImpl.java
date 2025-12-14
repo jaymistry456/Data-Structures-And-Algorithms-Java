@@ -10,8 +10,8 @@ class HashTableLinearProbing {
         hashTable = new StoredEmployee[capacity];
     }
 
-    public int hashKey(String lastName) {
-        return lastName.length() % hashTable.length;
+    public int hashKey(String key) {
+        return Math.abs(key.hashCode() % hashTable.length);
     }
 
     public boolean occupied(int index) {
@@ -105,7 +105,7 @@ public class HashTableLinearProbingImpl {
     public static void main(String[] args) {
         HashTableLinearProbing hashTable = new HashTableLinearProbing(10);
         hashTable.put("Potter", new Employee(1, "Harry", "Potter"));
-        hashTable.put("Weasly", new Employee(2, "Ron", "Weasly"));
+        hashTable.put("Weasley", new Employee(2, "Ron", "Weasley"));
         hashTable.put("Granger", new Employee(3, "Hermione", "Granger"));
         hashTable.put("Longbottom", new Employee(4, "Neville", "Longbottom"));
         hashTable.put("Lovegood", new Employee(5, "Luna", "Lovegood"));

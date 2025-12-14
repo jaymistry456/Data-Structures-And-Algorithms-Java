@@ -63,7 +63,7 @@ public class ArrayStackImpl {
     public static void main(String[] args) {
         ArrayStack arrayStack = new ArrayStack(10);
         arrayStack.push(new Employee(1, "Harry", "Potter"));
-        arrayStack.push(new Employee(2, "Ron", "Weasly"));
+        arrayStack.push(new Employee(2, "Ron", "Weasley"));
         arrayStack.push(new Employee(3, "Hermione", "Granger"));
         arrayStack.printStack();
         System.out.println(arrayStack.getSize());

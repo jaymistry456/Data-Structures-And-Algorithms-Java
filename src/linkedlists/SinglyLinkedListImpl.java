@@ -86,7 +86,7 @@ public class SinglyLinkedListImpl {
     public static void main(String[] args) {
         SinglyLinkedList linkedList = new SinglyLinkedList();
         linkedList.addToFront(new Employee(1, "Harry", "Potter"));
-        linkedList.addToFront(new Employee(2, "Ron", "Weasly"));
+        linkedList.addToFront(new Employee(2, "Ron", "Weasley"));
         linkedList.addToFront(new Employee(3, "Hermione", "Granger"));
         linkedList.printList();
         linkedList.removeFromFront();

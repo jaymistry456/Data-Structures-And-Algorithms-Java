@@ -77,7 +77,7 @@ public class ArrayCircularQueueImpl {
     public static void main(String[] args) {
         ArrayCircularQueue circularQueue = new ArrayCircularQueue(3);
         circularQueue.add(new Employee(1, "Harry", "Potter"));
-        circularQueue.add(new Employee(2, "Ron", "Weasly"));
+        circularQueue.add(new Employee(2, "Ron", "Weasley"));
         circularQueue.add(new Employee(3, "Hermione", "Granger"));
         circularQueue.add(new Employee(4, "Neville", "longbottom"));
         circularQueue.printQueue();
@@ -88,7 +88,7 @@ public class ArrayCircularQueueImpl {
         circularQueue.remove();
         circularQueue.remove();
         circularQueue.add(new Employee(5, "Luna", "Lovegood"));
-        circularQueue.add(new Employee(6, "Ginny", "Weasly"));
+        circularQueue.add(new Employee(6, "Ginny", "Weasley"));
         circularQueue.add(new Employee(7, "Albus", "Dumbledore"));
         circularQueue.printQueue();
     }

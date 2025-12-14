@@ -71,7 +71,7 @@ public class ArrayQueueImpl {
     public static void main(String[] args) {
         ArrayQueue arrayQueue = new ArrayQueue(10);
         arrayQueue.add(new Employee(1, "Harry", "Potter"));
-        arrayQueue.add(new Employee(2, "Ron", "Weasly"));
+        arrayQueue.add(new Employee(2, "Ron", "Weasley"));
         arrayQueue.add(new Employee(3, "Hermione", "Granger"));
         arrayQueue.printQueue();
         System.out.println(arrayQueue.getSize());
